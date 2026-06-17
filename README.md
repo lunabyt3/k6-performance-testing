@@ -17,7 +17,7 @@ Test Results:
 
 Conclusion:
 The application remained stable under a load of 100 concurrent users. No request failures were observed, and the average response time remained below 200 milliseconds, indicating good performance and responsiveness.
-(screenshots/load-test-100-users.png)
+![100 Users](screenshots/load-test-100-users.png)
 
 
 ## Load Test Scenario (500 Virtual Users)
@@ -37,4 +37,4 @@ Test Results:
 
 Conclusion:
 While average response times remained low, request failures and connection timeout errors were observed under higher load. This suggests the system was approaching its scalability limits.
-(screenshots/load-test-500-users.png)
+![500 Users](screenshots/load-test-500-users.png)
