@@ -6,8 +6,7 @@ Configuration:
 * Virtual Users (VUs): 100
 * Duration: 30 Seconds
 
-## Test Results
-
+Test Results:
 | Metric                | Result           |
 | --------------------- | ---------------- |
 | Total Requests        | 22,358           |
@@ -16,9 +15,9 @@ Configuration:
 | P95 Response Time     | 263.26 ms        |
 | Throughput            | 738 Requests/sec |
 
-## Conclusion
-
+Conclusion:
 The application remained stable under a load of 100 concurrent users. No request failures were observed, and the average response time remained below 200 milliseconds, indicating good performance and responsiveness.
+(screenshots/load-test-100-users.png)
 
 
 ## Load Test Scenario (500 Virtual Users)
@@ -27,8 +26,7 @@ Configuration:
 * Virtual Users (VUs): 500
 * Duration: 1 Minute
 
-## Test Results
-
+Test Results:
 | Metric                | Result           |
 | --------------------- | ---------------- |
 | Total Requests        | 75,177           |
@@ -37,6 +35,6 @@ Configuration:
 | P95 Response Time     | 262.59ms         |
 | Throughput            | 936 Requests/sec |
 
-## Conclusion
-
+Conclusion:
 While average response times remained low, request failures and connection timeout errors were observed under higher load. This suggests the system was approaching its scalability limits.
+(screenshots/load-test-500-users.png)
